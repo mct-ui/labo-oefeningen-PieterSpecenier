@@ -2,6 +2,25 @@
   #FONTS
 \*------------------------------------*/
 
+@font-face{
+    font-family: "Clear Sans";
+    font-weight: 200;
+    src: url("../fonts/ClearSans-Light-webfont.woff") format("woff");
+}
+
+@font-face{
+    font-family: "Clear Sans";
+    font-weight: 400;
+    src: url("../fonts/ClearSans-Regular-webfont.woff") format("woff");
+}
+
+@font-face{
+    font-family: "HK Grotesk Web";
+    font-weight: 600;
+    src: url("../fonts/ClearSans-Medium-webfont.woff") format("woff");
+}
+
+
 /*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
@@ -13,12 +32,16 @@
 */
 
 html {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 200;
     font-family: Helvetica, arial, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: white;
+    background: linear-gradient(to bottom right, #0A257D ,#061649);
+    background-attachment: fixed;
 }
 
 *,
@@ -365,6 +388,15 @@ a:focus {
   #COMPONENTS
 \*------------------------------------*/
 
+
+
+.c-logo{
+    height: 32px;
+}
+
+.c-logo__symbol{
+    height: 100%;
+}
 /*------------------------------------*\
   #UTILITIES
 \*------------------------------------*/
